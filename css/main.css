@@ -1,0 +1,110 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: url(../img/bg-body.jpg);
+}
+.green{
+  color:green;
+}
+.red{
+  color:red;
+}
+.blue{
+  color:blue;
+}
+.yellow{
+  color:yellow;
+}
+.inputError{
+  border-color: rgba(236, 82, 82, 0.8) !important;
+  outline: 0 !important;
+  outline: thin dotted \9 !important;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(236, 82, 82, 0.6) !important;
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(236, 82, 82, 0.6) !important;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(236, 82, 82, 0.6) !important;
+}
+.step-pane .row{
+  margin-left: 0 !important;
+}
+.btn-toolbar{
+  display: inline-block !important;
+  margin-left: 50px;
+}
+
+.front-sensors:before {
+content: "Front Sensors" !important;
+top: 15px;
+left: 15px;
+font-size: 12px !important;
+font-weight: 700;
+color: #bbb;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+.rear-sensors:before {
+content: "Rear Sensors" !important;
+top: 15px;
+left: 15px;
+font-size: 12px !important;
+font-weight: 700;
+color: #bbb;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+.div-wizard{
+  min-height: 600px;
+  position: relative;
+}
+.div-wizard-control{
+  position: absolute;
+  bottom: 10px;
+}
+.div-wizard-control > button{
+  width: 75px;
+}
+.wizard>.steps{
+  /*display: flex;*/
+}
+.wizard>.steps>.last{
+  flex: 1;
+  padding: 0 20px 0 20px;
+}
+.wizard>.steps>.last>.badge{
+  background-color: #117230;
+  margin: 0;
+}
+.list-group-item>input{
+  height: 24px !important;
+  margin-bottom: 0 !important;
+}
+.list-group-item>span{
+  vertical-align: top;
+  line-height: 28px;
+}
+.length-measurement{
+  margin-left: 10px;
+}
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+.logo{
+  -webkit-filter: drop-shadow(0 1px 5px rgba(0,0,0,.5));
+  -moz-filter: drop-shadow(0 1px 5px rgba(0,0,0,.5));
+  -ms-filter: drop-shadow(0 1px 5px rgba(0,0,0,.5));
+  -o-filter: drop-shadow(0 1px 5px rgba(0,0,0,.5));
+  filter: drop-shadow(0 1px 5px rgba(0,0,0,.5));
+  width: 150px;
+  margin-top: -5px;
+}
+.red{
+  color:red;
+}
+i.radio{
+  display: inline;
+}
