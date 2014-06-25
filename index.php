@@ -49,8 +49,8 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="javascript:void(0);">Simulator</a></li>
-            <li><a href="#about">test1</a></li>
-            <li><a href="#contact">test2</a></li>
+            <!--li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li-->
           </ul>
         </div><!--/.nav-collapse -->
       </div>
